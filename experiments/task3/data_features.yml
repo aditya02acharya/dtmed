@@ -1,0 +1,17 @@
+pid: "PRACTICE_PATIENT_ID"
+covariates: ['AGE', 'EGFR', 'SYSTOLIC_BLOOD_PRESSURE', 'HBA1C', 'SERUM_CHOLESTEROL',
+             'HIGH_DENSITY_LIPOPROTEIN', 'LOW_DENSITY_LIPOPROTEIN', 'TRIGLYCERIDES', 'BMI']
+action: ['ACTION']
+medication: ['MEDICATION']
+rewards_to_go: ['RTG_ALL']
+step_reward: ['REWARD_ALL']
+action_dim: 273
+scaler_config: {'AGE': [13.19, 103.74],  # [min, max]
+                'EGFR': [0.0, 90.0],
+                'SYSTOLIC_BLOOD_PRESSURE': [0.0, 240.0],
+                'HBA1C': [0.0, 300.0],
+                'SERUM_CHOLESTEROL': [0.0, 20.0],
+                'HIGH_DENSITY_LIPOPROTEIN': [0.0, 30.0],
+                'LOW_DENSITY_LIPOPROTEIN': [0.0, 30.0],
+                'TRIGLYCERIDES': [0.0, 50.0],
+                'BMI': [0.0, 120.0]}

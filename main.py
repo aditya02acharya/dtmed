@@ -1,7 +1,7 @@
 import argparse
 
-from src.test.test_dt import test
-from src.train.train_dt import train
+from src.trainer.test_dt import test
+from src.trainer.train_dt import train
 
 
 def main_train():
